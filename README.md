@@ -30,7 +30,7 @@ A functioning prototype of an event website based on a Figma design. The goal is
 - The `AccountService` uses **Microsoft Identity** to register the user  
 - The `EmailConfirmed` flag is initially set to `false`  
 - The service sends a request to the **Verification API** → which then calls the **Azure email service** to send a verification code  
-> ⚠️ **Note:** Currently, the email is hardcoded (line 59 in `VerificationProvider`). This can be changed to use the actual user's email.
+> ⚠️ **Note:** Currently, the email is hardcoded (line 59 in `VerificationProvider, inside verificationservice`). This can be changed to use the actual user's email.
 
 ---
 
