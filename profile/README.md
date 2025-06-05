@@ -1,5 +1,5 @@
 # .github
-> ⚠️ **Note:** Currently, the email is hardcoded (line 59 in `VerificationProvider`). This can be changed to use the actual user's email.
+Note: Currently, the email is hardcoded (line 59 inside verificationservice, in VerificationProvider). This can be changed to use the actual user's email.
 # 🎟️ Event Platform MVP – Based on Figma Design
 
 A functioning prototype of an event website based on a Figma design. The goal is to implement the core features of an event platform for both administrators and users.
